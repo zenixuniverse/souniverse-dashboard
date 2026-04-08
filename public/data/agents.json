@@ -1,0 +1,194 @@
+[
+  {
+    "id": "lelouch",
+    "name": "Lelouch",
+    "role": "Strategic Captain",
+    "icon": "👑",
+    "status": "active",
+    "currentTask": "Orchestrating AI Team Dashboard build",
+    "description": "Strategic lead and orchestrator. Breaks down complex projects, delegates tasks, and synthesizes results.",
+    "metrics": {
+      "productivity": 95,
+      "quality": 98,
+      "responseTime": 2,
+      "tasksCompleted": 47,
+      "tasksInProgress": 3,
+      "tasksBlocked": 0
+    },
+    "progressBars": [
+      { "label": "Strategic Planning", "value": 92, "color": "#3b82f6" },
+      { "label": "Task Delegation", "value": 88, "color": "#8b5cf6" },
+      { "label": "Team Coordination", "value": 95, "color": "#ec4899" }
+    ],
+    "connections": ["content-specialist", "designer", "video-editor", "client-manager", "research-assistant", "social-media-manager", "personal-assistant"],
+    "lastUpdate": "2026-04-08T00:40:00Z"
+  },
+  {
+    "id": "content-specialist",
+    "name": "Content Specialist",
+    "role": "Copywriter & Content Strategist",
+    "icon": "✍️",
+    "status": "working",
+    "currentTask": "Writing Brian Blum proposal copy",
+    "description": "Persuasive copywriting using AIDA, PAS, FAB frameworks. Creates captions, landing pages, email sequences, and sales copy.",
+    "metrics": {
+      "productivity": 87,
+      "quality": 94,
+      "responseTime": 5,
+      "tasksCompleted": 34,
+      "tasksInProgress": 2,
+      "tasksBlocked": 0
+    },
+    "progressBars": [
+      { "label": "Copy Written", "value": 78, "color": "#10b981" },
+      { "label": "Client Approval", "value": 92, "color": "#3b82f6" },
+      { "label": "A/B Testing", "value": 65, "color": "#f59e0b" }
+    ],
+    "connections": ["social-media-manager"],
+    "lastUpdate": "2026-04-08T00:35:00Z"
+  },
+  {
+    "id": "designer",
+    "name": "Designer",
+    "role": "Visual Creator & Brand Assets",
+    "icon": "🎨",
+    "status": "idle",
+    "currentTask": "Awaiting design requests",
+    "description": "Creates thumbnails, graphics, brand assets, UI/UX designs. Specializes in high-contrast, modern aesthetics.",
+    "metrics": {
+      "productivity": 72,
+      "quality": 96,
+      "responseTime": 8,
+      "tasksCompleted": 18,
+      "tasksInProgress": 0,
+      "tasksBlocked": 0
+    },
+    "progressBars": [
+      { "label": "Designs Created", "value": 45, "color": "#ec4899" },
+      { "label": "Revisions Done", "value": 88, "color": "#8b5cf6" },
+      { "label": "Brand Consistency", "value": 94, "color": "#3b82f6" }
+    ],
+    "connections": ["social-media-manager", "video-editor"],
+    "lastUpdate": "2026-04-08T00:20:00Z"
+  },
+  {
+    "id": "video-editor",
+    "name": "Video Editor",
+    "role": "Reels, Shorts & YouTube Content",
+    "icon": "🎬",
+    "status": "idle",
+    "currentTask": "Awaiting video editing tasks",
+    "description": "Edits Instagram Reels, YouTube Shorts, full videos. Applies trending audio, hooks, and retention tactics.",
+    "metrics": {
+      "productivity": 68,
+      "quality": 91,
+      "responseTime": 12,
+      "tasksCompleted": 12,
+      "tasksInProgress": 0,
+      "tasksBlocked": 0
+    },
+    "progressBars": [
+      { "label": "Videos Edited", "value": 38, "color": "#f59e0b" },
+      { "label": "Trending Audio", "value": 72, "color": "#10b981" },
+      { "label": "Engagement Rate", "value": 85, "color": "#ec4899" }
+    ],
+    "connections": ["social-media-manager"],
+    "lastUpdate": "2026-04-07T22:15:00Z"
+  },
+  {
+    "id": "client-manager",
+    "name": "Client Manager",
+    "role": "Communication & Onboarding",
+    "icon": "🤝",
+    "status": "idle",
+    "currentTask": "Monitoring client communications",
+    "description": "Handles client inquiries, onboarding, check-ins, feedback gathering. Manages expectations and relationships.",
+    "metrics": {
+      "productivity": 75,
+      "quality": 93,
+      "responseTime": 6,
+      "tasksCompleted": 22,
+      "tasksInProgress": 1,
+      "tasksBlocked": 0
+    },
+    "progressBars": [
+      { "label": "Clients Managed", "value": 82, "color": "#3b82f6" },
+      { "label": "Satisfaction Score", "value": 96, "color": "#10b981" },
+      { "label": "Response Time", "value": 88, "color": "#8b5cf6" }
+    ],
+    "connections": ["lelouch"],
+    "lastUpdate": "2026-04-08T00:10:00Z"
+  },
+  {
+    "id": "research-assistant",
+    "name": "Research Assistant",
+    "role": "Intel & Trend Analysis",
+    "icon": "🔍",
+    "status": "working",
+    "currentTask": "Researching creator economy trends",
+    "description": "Competitor analysis, trend research, lead generation. Provides insights and intelligence for strategy.",
+    "metrics": {
+      "productivity": 89,
+      "quality": 95,
+      "responseTime": 4,
+      "tasksCompleted": 41,
+      "tasksInProgress": 2,
+      "tasksBlocked": 0
+    },
+    "progressBars": [
+      { "label": "Reports Generated", "value": 85, "color": "#10b981" },
+      { "label": "Insights Found", "value": 91, "color": "#3b82f6" },
+      { "label": "Accuracy Score", "value": 97, "color": "#ec4899" }
+    ],
+    "connections": ["content-specialist", "social-media-manager"],
+    "lastUpdate": "2026-04-08T00:38:00Z"
+  },
+  {
+    "id": "social-media-manager",
+    "name": "Social Media Manager",
+    "role": "Growth & Engagement",
+    "icon": "📱",
+    "status": "active",
+    "currentTask": "Scheduling posts for ZBJ clients",
+    "description": "Multi-platform scheduling (Instagram, TikTok, YouTube, X). Manages posting, engagement, community growth.",
+    "metrics": {
+      "productivity": 91,
+      "quality": 89,
+      "responseTime": 3,
+      "tasksCompleted": 56,
+      "tasksInProgress": 4,
+      "tasksBlocked": 0
+    },
+    "progressBars": [
+      { "label": "Posts Scheduled", "value": 94, "color": "#8b5cf6" },
+      { "label": "Engagement Rate", "value": 87, "color": "#10b981" },
+      { "label": "Growth %", "value": 76, "color": "#f59e0b" }
+    ],
+    "connections": [],
+    "lastUpdate": "2026-04-08T00:39:00Z"
+  },
+  {
+    "id": "personal-assistant",
+    "name": "Personal Assistant",
+    "role": "Workflow Optimizer",
+    "icon": "📋",
+    "status": "active",
+    "currentTask": "Organizing project files and documentation",
+    "description": "Handles misc tasks, calendar management, file organization, workflow automation, general support.",
+    "metrics": {
+      "productivity": 84,
+      "quality": 92,
+      "responseTime": 5,
+      "tasksCompleted": 39,
+      "tasksInProgress": 2,
+      "tasksBlocked": 0
+    },
+    "progressBars": [
+      { "label": "Tasks Organized", "value": 88, "color": "#3b82f6" },
+      { "label": "Hours Saved", "value": 73, "color": "#10b981" },
+      { "label": "Efficiency Score", "value": 90, "color": "#ec4899" }
+    ],
+    "connections": [],
+    "lastUpdate": "2026-04-08T00:37:00Z"
+  }
+]
