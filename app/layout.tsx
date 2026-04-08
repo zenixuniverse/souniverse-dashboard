@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AI Team Dashboard | ZBJ Agency",
-  description: "Real-time monitoring dashboard for Zenix's 8-member AI team. Track agent status, tasks, and performance metrics.",
+  title: "AI Team Dashboard | SoUniverse",
+  description: "Real-time monitoring dashboard for SoUniverse's 8-member AI team. Track agent status, tasks, and performance metrics.",
 };
 
 export default function RootLayout({
