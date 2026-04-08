@@ -145,7 +145,24 @@ export const getSessionsMetadata = (): SessionMetadata[] => {
   try {
     const content = fs.readFileSync(SESSIONS_JSON, 'utf-8');
     const data = JSON.parse(content);
-    return data.sessions || [];
+    
+    // Convert object format to array
+    const sessions: SessionMetadata[] = [];
+    for (const [key, value] of Object.entries(data)) {
+      const session = value as any;
+      sessions.push({
+        key,
+        kind: session.kind || 'direct',
+        updatedAt: session.updatedAt || Date.now(),
+        sessionId: session.sessionId,
+        inputTokens: session.inputTokens,
+        outputTokens: session.outputTokens,
+        totalTokens: session.totalTokens,
+        model: session.model
+      });
+    }
+    
+    return sessions;
   } catch (error) {
     console.error('Error reading sessions.json:', error);
     return [];
