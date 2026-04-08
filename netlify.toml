@@ -1,8 +1,10 @@
 [build]
   command = "npm run build"
-  publish = "out"
+  publish = ".next"
 
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+# Enable serverless functions for API routes
+[functions]
+  directory = ".netlify/functions"
+  node_bundler = "esbuild"
+
+# Don't need redirects for Next.js (handles routing internally)
