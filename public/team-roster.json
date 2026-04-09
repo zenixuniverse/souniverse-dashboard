@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "name": "ZBJ Agency AI Team",
+    "version": "1.0.0",
+    "created": "2026-04-09",
+    "totalAgents": 15
+  },
+  "command": {
+    "lelouch": {
+      "name": "Lelouch",
+      "emoji": "👑",
+      "role": "Strategic Captain",
+      "description": "Orchestrates the team, makes high-level decisions, coordinates all operations",
+      "type": "command",
+      "active": true
+    }
+  },
+  "powerhouse": {
+    "stack-surge": {
+      "name": "Stack Surge",
+      "emoji": "⚡",
+      "role": "Full-Stack Forge",
+      "description": "Frontend + Backend + DevOps + QA - entire tech stack, builds everything",
+      "type": "multi-domain",
+      "skills": ["frontend", "backend", "devops", "qa", "fullstack"],
+      "active": false,
+      "sessionKey": null
+    },
+    "pixel-sage": {
+      "name": "Pixel Sage",
+      "emoji": "✨",
+      "role": "Visual Architect",
+      "description": "Design systems, 8-bit aesthetics, UI/UX, visual branding",
+      "type": "multi-domain",
+      "skills": ["design", "ui-ux", "branding", "visual-systems"],
+      "active": false,
+      "sessionKey": null
+    },
+    "spectrum": {
+      "name": "Spectrum",
+      "emoji": "🎭",
+      "role": "Creative Specialist",
+      "description": "Copywriting + Brand Strategy + Design + UX Research - full creative range",
+      "type": "multi-domain",
+      "skills": ["copywriting", "brand-strategy", "design", "ux-research"],
+      "active": false,
+      "sessionKey": null
+    },
+    "apex": {
+      "name": "Apex",
+      "emoji": "🎯",
+      "role": "Growth Architect",
+      "description": "Product + Analytics + Growth + Strategy - builds business systems",
+      "type": "multi-domain",
+      "skills": ["product", "analytics", "growth", "strategy"],
+      "active": false,
+      "sessionKey": null
+    }
+  },
+  "specialists": {
+    "content-specialist": {
+      "name": "Content Specialist",
+      "emoji": "✍️",
+      "role": "Content Specialist",
+      "description": "Blog posts, web copy, social captions, email campaigns, SEO content",
+      "type": "focused",
+      "skills": ["content-writing", "copywriting", "seo"],
+      "active": false,
+      "sessionKey": null
+    },
+    "designer": {
+      "name": "Designer",
+      "emoji": "🎨",
+      "role": "Designer",
+      "description": "Thumbnails, graphics, brand assets, AI image generation",
+      "type": "focused",
+      "skills": ["graphic-design", "thumbnails", "branding"],
+      "active": false,
+      "sessionKey": null
+    },
+    "video-editor": {
+      "name": "Video Editor",
+      "emoji": "🎬",
+      "role": "Video Editor",
+      "description": "Reels, Shorts, YouTube scripts, video content strategy",
+      "type": "focused",
+      "skills": ["video-editing", "video-scripts", "content-strategy"],
+      "active": false,
+      "sessionKey": null
+    },
+    "client-manager": {
+      "name": "Client Manager",
+      "emoji": "🤝",
+      "role": "Client Manager",
+      "description": "Client communications, proposals, onboarding, relationship management",
+      "type": "focused",
+      "skills": ["client-management", "proposals", "onboarding"],
+      "active": false,
+      "sessionKey": null
+    },
+    "research-assistant": {
+      "name": "Research Assistant",
+      "emoji": "🔍",
+      "role": "Research Assistant",
+      "description": "Competitor analysis, trend research, lead generation, market intel",
+      "type": "focused",
+      "skills": ["research", "competitor-analysis", "lead-gen"],
+      "active": false,
+      "sessionKey": null
+    },
+    "social-media-manager": {
+      "name": "Social Media Manager",
+      "emoji": "📱",
+      "role": "Social Media Manager",
+      "description": "Posting strategies, content calendars, engagement, community management",
+      "type": "focused",
+      "skills": ["social-media", "content-calendar", "community-management"],
+      "active": false,
+      "sessionKey": null
+    },
+    "personal-assistant": {
+      "name": "Personal Assistant",
+      "emoji": "📋",
+      "role": "Personal Assistant",
+      "description": "Organization, misc tasks, file management, coordination",
+      "type": "focused",
+      "skills": ["organization", "coordination", "task-management"],
+      "active": false,
+      "sessionKey": null
+    }
+  },
+  "tactical": {
+    "nexus": {
+      "name": "Nexus",
+      "emoji": "🔗",
+      "role": "Task Nexus",
+      "description": "Task logging system, project tracking, coordination",
+      "type": "tactical",
+      "skills": ["task-tracking", "coordination"],
+      "active": false,
+      "sessionKey": null
+    },
+    "scout": {
+      "name": "Scout",
+      "emoji": "🎯",
+      "role": "Customer Research",
+      "description": "Deep customer research, pain point analysis, market insights",
+      "type": "tactical",
+      "skills": ["customer-research", "market-analysis"],
+      "active": false,
+      "sessionKey": null
+    },
+    "pulse": {
+      "name": "Pulse",
+      "emoji": "🚀",
+      "role": "Content Planning",
+      "description": "Content calendar creation, editorial planning, scheduling",
+      "type": "tactical",
+      "skills": ["content-planning", "scheduling"],
+      "active": false,
+      "sessionKey": null
+    },
+    "bolt": {
+      "name": "Bolt",
+      "emoji": "⚡",
+      "role": "Video Script Writer",
+      "description": "Video script writing, UGC content, short-form video creation",
+      "type": "tactical",
+      "skills": ["video-scripts", "ugc-content"],
+      "active": false,
+      "sessionKey": null
+    }
+  }
+}
