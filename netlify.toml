@@ -1,11 +1,7 @@
 [build]
-  command = "npm run build"
-  publish = ".next"
-
+  # No build command - using pre-built static files
+  publish = "out"
+  
 [build.environment]
   NEXT_PUBLIC_API_URL = "https://factful-noncaffeinic-kaiya.ngrok-free.dev"
   NEXT_PUBLIC_API_KEY = "07f125ead1672bb900a77b73752a85bd3bcd3c070aaf3edce97f2283dbc78751"
-
-[functions]
-  directory = ".netlify/functions"
-  node_bundler = "esbuild"
