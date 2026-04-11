@@ -2,9 +2,18 @@
   command = "npm run build"
   publish = ".next"
 
+[build.environment]
+  NODE_VERSION = "22"
+
 [functions]
-  directory = ".netlify/functions"
+  directory = "netlify/functions"
   node_bundler = "esbuild"
+  included_files = ["/root/.clawdbot/agents/main/sessions/*", "/root/clawd/ai-team/team-roster.json"]
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
 
 [[redirects]]
   from = "/*"

@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',
+  // Use standalone for Netlify deployment
   images: {
     unoptimized: true,
   },
