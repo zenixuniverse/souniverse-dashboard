@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOUniverse Dashboard v3.0 - Live Agent Tracking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <span class="logo-text">◢ SO//UNIVERSE ◣</span>
+                <span class="version">v3.0</span>
+            </div>
+            <div class="status-indicator">
+                <span class="pulse"></span>
+                <span id="connection-status">CONNECTING...</span>
+            </div>
+        </header>
+
+        <div class="stats-bar">
+            <div class="stat-card">
+                <div class="stat-label">TOTAL AGENTS</div>
+                <div class="stat-value" id="total-agents">--</div>
+            </div>
+            <div class="stat-card working">
+                <div class="stat-label">WORKING</div>
+                <div class="stat-value" id="working-agents">--</div>
+            </div>
+            <div class="stat-card active">
+                <div class="stat-label">ACTIVE</div>
+                <div class="stat-value" id="active-agents">--</div>
+            </div>
+            <div class="stat-card idle">
+                <div class="stat-label">IDLE</div>
+                <div class="stat-value" id="idle-agents">--</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">COMPLETED</div>
+                <div class="stat-value" id="completed-tasks">--</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">PRODUCTIVITY</div>
+                <div class="stat-value" id="productivity-score">--</div>
+            </div>
+        </div>
+
+        <main class="main-content">
+            <section class="agents-section">
+                <h2 class="section-title">═══ ZBJ AGENCY TEAM ═══</h2>
+                <div id="agents-grid" class="agents-grid">
+                    <!-- Agent cards will be dynamically inserted here -->
+                </div>
+            </section>
+
+            <section class="projects-section">
+                <h2 class="section-title">═══ CURRENT PROJECTS ═══</h2>
+                <div id="projects-list" class="projects-list">
+                    <!-- Projects will be dynamically inserted here -->
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-left">
+                Last Updated: <span id="last-update">--</span>
+            </div>
+            <div class="footer-center">
+                ZBJ AGENCY • EMPEROR ZENIX
+            </div>
+            <div class="footer-right">
+                Auto-refresh: <span id="refresh-timer">15</span>s
+            </div>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
